@@ -9,7 +9,7 @@ fn insertion_sort<T: Ord>(arr: &mut [T]) {
     }
 }
 fn main() {
-    let mut arr = [1, 5, 2, 4, 3];
+    let mut arr = [343,3,3453,23,111];
     insertion_sort(&mut arr);
     println!("{:?}", arr);
 }
